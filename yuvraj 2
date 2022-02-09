@@ -1,0 +1,10 @@
+try:
+    val = 550/2
+    print("division successful!")
+except:
+    val = -1
+
+if val > 0:
+    print("answer is" ,val)
+else:
+    print("can't divide by zero")
